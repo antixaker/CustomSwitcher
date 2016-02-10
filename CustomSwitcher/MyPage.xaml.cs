@@ -10,6 +10,7 @@ namespace CustomSwitcher
         public MyPage()
         {
             InitializeComponent();
+            switcher.Effects.Add(Effect.Resolve("TestEffect.CornerEffect"));
         }
     }
 }
