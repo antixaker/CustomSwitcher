@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CustomSwitcher.MyPage" xmlns:views="clr-namespace:CustomSwitcher.Views;assembly=CustomSwitcher">
-    <views:RappSwitcher x:Name="switcher" HorizontalOptions="Start" VerticalOptions="Start" />
+    <views:RappSwitcher x:Name="switcher" HorizontalOptions="Center" VerticalOptions="Start" TextChecked="Yes" TextUnChecked="No" TextColor="White" />
 </ContentPage>
